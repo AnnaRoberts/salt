@@ -14,10 +14,7 @@ Text Domain: anna_roberts_salt_template
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800);
 
 
-*{
-    color: #000000;
-    font-size: 16px;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
 }
@@ -75,7 +72,7 @@ html img{
     margin: 4px;
     padding: 5px 0px 5px 60px; 
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #1e7a64;
 }
 .blank-menu-header ul li a:hover {
@@ -90,4 +87,17 @@ html img{
 }
 
 
+/*-- FOOTER STYLING --*/
+
+.footer {
+    margin-top: 450px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.widget-footer {
+    color: white;
+}
+.footer-right {
+    float: right;
+}
 

@@ -8,4 +8,9 @@
                 </div>
             </section>
                     
+ <script src="js/jquery-2.1.4.min.js"></script>
+ <script src="js/jquery.backstretch.min.js"></script>
+ <script src="js/main.js"></script>
+
+
  <?php get_footer(); ?>

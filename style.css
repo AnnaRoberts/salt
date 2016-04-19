@@ -11,6 +11,7 @@ Text Domain: anna_roberts_salt_template
 
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800);
 
 
 *{
@@ -49,10 +50,11 @@ html img{
 .logo {
     background-image: url("salt-logo.png");
 }
+
 /*--- INLINE MENU ---*/
 
 .blank-menu-header {
-    text-align: right;
+    text-align: left;
     margin-top: 40px;
 }
 .blank-menu-header ul {
@@ -60,19 +62,26 @@ html img{
     padding: 0; 
     list-style-type: none; 
     list-style-image: none; 
+    color: #1e7a64;
 }
 .blank-menu-header li {
     display: inline;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #1e7a64;
 }
 .blank-menu-header ul li a {
     text-decoration:none;  
     margin: 4px;
-    padding: 5px 0px 5px 40px; 
+    padding: 5px 0px 5px 60px; 
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    color: #1e7a64;
 }
 .blank-menu-header ul li a:hover {
-    color: #cccccc;
+    color: #1e7a64;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .single-post-thumbnail img {

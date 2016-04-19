@@ -7,13 +7,8 @@
 <?php wp_head(); ?>
 </head>
 <body>
+
 	<div class ="container">
-		<header class="row">
-			<div class="nine columns">
-				<h1><a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name');?> </a> </h1>
-				<h2> <?php bloginfo('description'); ?></h2>
-			</div>
-		</header>
 		<!-- Add Menu Here -->
 		<div class="row">
 		    <div class="twelve columns">
@@ -24,4 +19,12 @@
 		            ));?>
 		    </div>
 		</div>
+		
+		<header class="row">
+			<div class="nine columns">
+				<h1><a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name');?> </a> </h1>
+				<h2> <?php bloginfo('description'); ?></h2>
+			</div>
+		</header>
+		
 <!-- END HEADER -->

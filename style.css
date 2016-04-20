@@ -119,3 +119,37 @@ html img{
     opacity: .8;
     border-radius: 12px;
 }
+
+
+/*-- BLOG PAGE --*/
+
+.blog-wrapper {
+    background-color: white;
+    max-width: 600px;
+    height: 500px;
+    overflow: scroll;
+    padding: 20px;
+    opacity: .8;
+    border-radius: 12px;
+    margin-top: 65px;
+}
+.blog-wrapper h3 a:hover {
+    font-family: 'Open Sans', sans-serif;
+    color: #1e7a64;
+    font-size: .8em;
+    text-decoration: underline;
+    letter-spacing: 4px;
+}
+.blog-wrapper h3 a {
+    font-family: 'Open Sans', sans-serif;
+    color: #1e7a64;
+    font-size: .8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.blog-wrapper p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #535450;
+}

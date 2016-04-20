@@ -2,6 +2,7 @@
 /*Template Name: Blog Posts */
 get_header(); ?>
 <?php query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged')); ?>
+    <div class="blog-wrapper">
     <div class="row">
         <div class="twelve columns">
             <?php if (have_posts()) : 
@@ -21,5 +22,6 @@ get_header(); ?>
                 </div>
             <?php endif; wp_reset_query(); ?>
         </div>
+    </div>
     </div>
 <?php get_footer(); ?>

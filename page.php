@@ -12,11 +12,15 @@
             </div>
 
         <!-- BEGIN SIDEBAR -->
-        <div class="two columns">
-            <?php get_sidebar(); ?>
+        <div class="four columns">
+            <?php dynamic_sidebar('about-me'); ?>
         </div>
     <!-- END SIDEBAR -->
         </div>
     </div> 
+
+<script src="js/jquery-2.1.4.min (1).js"></script>   
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/main.js"></script>
 
 <?php get_footer(); ?>

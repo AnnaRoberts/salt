@@ -41,7 +41,7 @@ h6 {
 
 html {
     background-color: #1c7664;
-    background-image: url("home-background.jpg");
+    background-image: url("home-background.png");
 }
 html img{
     max-width: 1200px;
@@ -98,7 +98,6 @@ html img{
 /*-- FOOTER STYLING --*/
 
 .footer {
-    margin-top: 400px;
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }

@@ -38,6 +38,15 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
         ));
+    register_sidebar( array(
+        'name' => ('About me'),
+        'id' => 'about-me',
+        'description' => 'Widget for the about me section', 
+        'before_widget' => '<div class="about-me">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'                        
+        ));
 }
 add_action('widgets_init', 'blank_widgets_init');
 

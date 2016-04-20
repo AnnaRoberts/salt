@@ -3,6 +3,12 @@
 			<section class="row">
                 <div class="twelve columns">
                     <div class="logo"> 
+                    	<h1>filler</h1>
+                    	<h1>filler</h1>
+                    	<h1>filler</h1>
+                    	<h1>filler</h1>
+                    	<h1>filler</h1>
+                    	<h1>filler</h1>
                     </div>               	
                 </div>
             </section>

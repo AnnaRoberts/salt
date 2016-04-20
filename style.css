@@ -48,6 +48,11 @@ html img{
 }
 .logo {
     background-image: url("salt-logo.png");
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.logo h1 {
+    visibility: hidden;
 }
 
 /*--- INLINE MENU ---*/

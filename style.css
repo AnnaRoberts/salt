@@ -15,6 +15,7 @@ Text Domain: anna_roberts_salt_template
 
 * {
     background-repeat: no-repeat;
+    color: white;
 }
 
 
@@ -92,6 +93,22 @@ html img{
 .single-post-thumbnail img {
     width: 100%;
     height: auto;
+}
+
+/*-- SOCIAL MEDIA --*/
+
+.social-media {
+    float: right;
+    margin-top: -25px;
+}
+.social-media li {
+    display: inline;
+    padding-left: 15px;
+    color: white;
+}
+.social-media .fa {
+    opacity: .80;
+    font-size: 2em;
 }
 
 

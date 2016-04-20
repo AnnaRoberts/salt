@@ -13,7 +13,9 @@ Text Domain: anna_roberts_salt_template
 @import url("css/skeleton.css");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800);
 
-
+* {
+    background-repeat: no-repeat;
+}
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,6 +81,7 @@ html img{
     color: #1e7a64;
     font-weight: 700;
     text-transform: uppercase;
+    background-image: url("salt-circle-logo.png");
 }
 
 .single-post-thumbnail img {

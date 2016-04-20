@@ -3,7 +3,6 @@
 			<section class="row">
                 <div class="twelve columns">
                     <div class="logo"> 
-                        
                     </div>               	
                 </div>
             </section>

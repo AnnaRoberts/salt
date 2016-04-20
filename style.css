@@ -101,3 +101,14 @@ html img{
     float: right;
 }
 
+/*-- PAGES --*/
+
+.page-content {
+    background-color: white;
+    color: #1e7a64;
+    height: 400px;
+    overflow: scroll;
+    padding: 20px;
+    opacity: .8;
+    border-radius: 12px;
+}

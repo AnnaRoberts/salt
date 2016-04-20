@@ -20,11 +20,6 @@
 		    </div>
 		</div>
 		
-		<header class="row">
-			<div class="nine columns">
-				<h1><a href="<?php bloginfo('url'); ?>"> <?php bloginfo('name');?> </a> </h1>
-				<h2> <?php bloginfo('description'); ?></h2>
-			</div>
-		</header>
+	
 		
 <!-- END HEADER -->

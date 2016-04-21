@@ -47,6 +47,15 @@ function blank_widgets_init() {
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        
         ));
+    register_sidebar( array(
+        'name' => ('Classes Options'),
+        'id' => 'classes-options',
+        'description' => 'Widget for the class options section', 
+        'before_widget' => '<div class="class-options">', 
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'                        
+        ));
 }
 add_action('widgets_init', 'blank_widgets_init');
 

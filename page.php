@@ -19,9 +19,17 @@
         </div>
     </div> 
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . "/js/jquery-2.1.4min (1).js"; ?>"> </script>   
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . "js/jquery.backstretch.min.js"; ?>"> </script>  
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . "js/main.js"; ?>"> </script>   
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . "/js/jquery.backstretch.min.js"; ?>"> </script>  
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . "/js/main.js"; ?>"> </script>  
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $.backstretch("<?php echo get_template_directory_uri() . '/img/home-background.jpg'; ?>");
+
+    });
+</script> 
+
 
 
 <?php get_footer(); ?>

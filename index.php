@@ -3,12 +3,7 @@
 			<section class="row">
                 <div class="twelve columns">
                     <div class="logo"> 
-                    	<h1>filler</h1>
-                    	<h1>filler</h1>
-                    	<h1>filler</h1>
-                    	<h1>filler</h1>
-                    	<h1>filler</h1>
-                    	<h1>filler</h1>
+                    	<img src="<?php echo get_template_directory_uri() . "/img/salt-logo.png"; ?>">
                     </div>               	
                 </div>
             </section>

@@ -140,6 +140,14 @@ html img{
 .page-content h2 {
     font-family: 'Open Sans', sans-serif;
     color: #1e7a64;
+    text-transform: uppercase;
+}
+.page-content h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1e7a64;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 .page-content p {
     font-family: 'Open Sans', sans-serif;
@@ -151,8 +159,16 @@ html img{
 
 .textwidget {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #535450;
+    font-weight: 400;
+    color: #1c7664;
+}
+.textwidget li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1c7664;
+}
+.textwidget img {
+    max-width: 300px;
 }
 
 /*-- about me --*/
@@ -163,7 +179,6 @@ html img{
     color: #f2af56;
     padding: 20px;
     margin-left: 100px;
-    background-image: url("lori-surf.jpg");
 }
 .about-me h3 {
     font-family: 'Amatic SC', cursive;
@@ -183,7 +198,6 @@ html img{
     color: #f2af56;
     padding: 20px;
     margin-left: 100px;
-    background-image: url("lori-surf.jpg");
 }
 .classes-options h3 {
     font-family: 'Amatic SC', cursive;
@@ -192,8 +206,47 @@ html img{
 }
 .classes-options p {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: #535450;
+    font-weight: 400;
+    color: #1c7664;
+}
+/*-- class prices --*/
+
+.class-prices {
+    border: solid;
+    border-width: 3px;
+    color: #f2af56;
+    padding: 20px;
+    margin-left: 100px;
+}
+.class-prices h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #f2af56;
+    text-align: center;
+}
+.class-prices p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1c7664;
+}
+
+/*-- contact info --*/
+
+.contact-info {
+    border: solid;
+    border-width: 3px;
+    color: #f2af56;
+    padding: 20px;
+    margin-left: 100px;
+}
+.contact-info h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #f2af56;
+    text-align: center;
+}
+.contact-info p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1c7664;
 }
 
 /*-- BLOG PAGE --*/

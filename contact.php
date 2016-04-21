@@ -14,6 +14,9 @@ get_header(); ?>
             </div>
 
     <!-- BEGIN SIDEBAR -->
+        <div class="six columns">  
+            <?php dynamic_sidebar('contact-info'); ?>      
+        </div>
         
     <!-- END SIDEBAR -->
         </div>

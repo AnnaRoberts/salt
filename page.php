@@ -12,8 +12,10 @@
             </div>
 
         <!-- BEGIN SIDEBAR -->
-        <div class="four columns">
-            <?php dynamic_sidebar('about-me'); ?>
+        <div class="six columns">
+                <img src="<?php echo get_template_directory_uri() . "/img/lori-surf.jpg"; ?>">
+                <?php dynamic_sidebar('about-me'); ?>
+           
         </div>
     <!-- END SIDEBAR -->
         </div>

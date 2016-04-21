@@ -12,6 +12,7 @@ Text Domain: anna_roberts_salt_template
 @import url("css/normalize.css");
 @import url("css/skeleton.css");
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 
 * {
     background-repeat: no-repeat;
@@ -137,8 +138,40 @@ html img{
     opacity: .8;
     border-radius: 12px;
 }
+.page-content h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #1e7a64;
+}
+.page-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #535450;
+}
 
-
+/*--sidebar--*/
+.about-me{
+    border: solid;
+    border-width: 3px;
+    color: #f2af56;
+    padding: 20px;
+    margin-left: 100px;
+    background-image: url("lori-surf.jpg");
+}
+.about-me h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #f2af56;
+    text-align: center;
+}
+.about-me p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #535450;
+}
+.textwidget {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #535450;
+}
 /*-- BLOG PAGE --*/
 
 .blog-wrapper {

@@ -51,7 +51,7 @@ function blank_widgets_init() {
         'name' => ('Classes Options'),
         'id' => 'classes-options',
         'description' => 'Widget for the class options section', 
-        'before_widget' => '<div class="class-options">', 
+        'before_widget' => '<div class="classes-options">', 
         'after_widget' => '</div>',
         'before_title' => '<h3>',
         'after_title' => '</h3>'                        

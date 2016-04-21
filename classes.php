@@ -15,7 +15,7 @@ get_header(); ?>
 
     <!-- BEGIN SIDEBAR -->
         <div class="six columns">  
-            <?php dynamic_sidebar('class-options'); ?>
+            <?php dynamic_sidebar('classes-options'); ?>
         </div>
         
     <!-- END SIDEBAR -->

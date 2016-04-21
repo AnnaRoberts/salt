@@ -43,7 +43,6 @@ h6 {
 
 html {
     background-color: #1c7664;
-    background-image: url("home-background.png");
 }
 html img{
     max-width: 1200px;
@@ -148,7 +147,16 @@ html img{
     color: #535450;
 }
 
-/*--sidebar--*/
+/*--SIDEBARS--*/
+
+.textwidget {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #535450;
+}
+
+/*-- about me --*/
+
 .about-me{
     border: solid;
     border-width: 3px;
@@ -167,11 +175,27 @@ html img{
     font-weight: 300;
     color: #535450;
 }
-.textwidget {
+/*-- classes options --*/
+
+.classes-options {
+    border: solid;
+    border-width: 3px;
+    color: #f2af56;
+    padding: 20px;
+    margin-left: 100px;
+    background-image: url("lori-surf.jpg");
+}
+.classes-options h3 {
+    font-family: 'Amatic SC', cursive;
+    color: #f2af56;
+    text-align: center;
+}
+.classes-options p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #535450;
 }
+
 /*-- BLOG PAGE --*/
 
 .blog-wrapper {

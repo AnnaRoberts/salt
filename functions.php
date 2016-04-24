@@ -57,15 +57,6 @@ function blank_widgets_init() {
         'after_title' => '</h3>'                        
         ));
     register_sidebar( array(
-        'name' => ('class prices'),
-        'id' => 'class-prices',
-        'description' => 'Widget for the class prices section', 
-        'before_widget' => '<div class="class-prices">', 
-        'after_widget' => '</div>',
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'                        
-        ));
-    register_sidebar( array(
         'name' => ('contact-info'),
         'id' => 'contact-info',
         'description' => 'Widget for the contact information', 

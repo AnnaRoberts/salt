@@ -90,6 +90,11 @@ html img{
     text-transform: uppercase;
     background-image: url("salt-circle-logo.png");
 }
+.blank-menu-header ul li a:hover a:before {
+    content: url("salt-circle-logo.png");
+    position: absolute;
+    margin: -10px;
+}
 
 .single-post-thumbnail img {
     width: 100%;
@@ -136,6 +141,7 @@ html img{
     padding: 20px;
     opacity: .8;
     border-radius: 12px;
+    margin-top: 40px;
 }
 .page-content h2 {
     font-family: 'Open Sans', sans-serif;
@@ -259,7 +265,7 @@ html img{
     padding: 20px;
     opacity: .8;
     border-radius: 12px;
-    margin-top: 65px;
+    margin-top: 40px;
 }
 .blog-wrapper h3 a:hover {
     font-family: 'Open Sans', sans-serif;

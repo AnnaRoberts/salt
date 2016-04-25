@@ -123,6 +123,12 @@ html img{
 .footer {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
+    height: 25px;
+    background-color: #6fbcad;
+    margin-left: -120px;
+    margin-right: -120px;
+    padding: 30px;
+    padding-left: 50px;
 }
 .widget-footer {
     color: white;

@@ -199,6 +199,7 @@ html img{
     font-family: 'Open Sans', sans-serif;
     color: #1e7a64;
     text-transform: uppercase;
+    letter-spacing: 4px;
 }
 .page-content h4 {
     font-family: 'Open Sans', sans-serif;

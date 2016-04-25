@@ -193,6 +193,7 @@ html img{
     opacity: .8;
     border-radius: 12px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .page-content h2 {
     font-family: 'Open Sans', sans-serif;
@@ -212,6 +213,17 @@ html img{
     color: #535450;
 }
 
+/*-- index --*/
+
+.logo img {
+    max-width: 300px;
+}
+@media all and (min-width: 600px) {
+    .logo img {
+        max-width: 500px;
+    }
+}
+
 /*--SIDEBARS--*/
 
 .textwidget {
@@ -225,20 +237,8 @@ html img{
     color: #1c7664;
 }
 .textwidget img {
-    max-width: 300px;
+    width: 100%
 }
-
-/*-- index --*/
-
-.logo img {
-    max-width: 300px;
-}
-@media all and (min-width: 600px) {
-    .logo img {
-        max-width: 500px;
-    }
-}
-
 
 /*-- about me --*/
 
@@ -247,7 +247,6 @@ html img{
     border-width: 3px;
     color: #f2af56;
     padding: 20px;
-    margin-left: 100px;
 }
 .about-me h3 {
     font-family: 'Amatic SC', cursive;
@@ -259,6 +258,12 @@ html img{
     font-weight: 300;
     color: #535450;
 }
+
+@media all and (min-width: 950px) {
+    .about-me {
+        margin-left: 100px;
+    }
+}
 /*-- classes options --*/
 
 .classes-options {
@@ -266,7 +271,6 @@ html img{
     border-width: 3px;
     color: #f2af56;
     padding: 20px;
-    margin-left: 100px;
 }
 .classes-options h3 {
     font-family: 'Amatic SC', cursive;
@@ -278,24 +282,11 @@ html img{
     font-weight: 400;
     color: #1c7664;
 }
-/*-- class prices --*/
 
-.class-prices {
-    border: solid;
-    border-width: 3px;
-    color: #f2af56;
-    padding: 20px;
-    margin-left: 100px;
-}
-.class-prices h3 {
-    font-family: 'Amatic SC', cursive;
-    color: #f2af56;
-    text-align: center;
-}
-.class-prices p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: #1c7664;
+@media all and (min-width: 950px) {
+    .classes-options {
+        margin-left: 100px;
+    }
 }
 
 /*-- contact info --*/
@@ -305,7 +296,6 @@ html img{
     border-width: 3px;
     color: #f2af56;
     padding: 20px;
-    margin-left: 100px;
 }
 .contact-info h3 {
     font-family: 'Amatic SC', cursive;
@@ -316,6 +306,11 @@ html img{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #1c7664;
+}
+@media all and (min-width: 950px) {
+   .contact-info {
+        margin-left: 100px;
+    }
 }
 
 /*-- BLOG PAGE --*/
@@ -333,17 +328,15 @@ html img{
 .blog-wrapper h3 a:hover {
     font-family: 'Open Sans', sans-serif;
     color: #1e7a64;
-    font-size: .8em;
+    font-size: .6em;
     text-decoration: underline;
-    letter-spacing: 4px;
 }
 .blog-wrapper h3 a {
     font-family: 'Open Sans', sans-serif;
     color: #1e7a64;
-    font-size: .8em;
+    font-size: .6em;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 4px;
 }
 .blog-wrapper p {
     font-family: 'Open Sans', sans-serif;
@@ -351,11 +344,34 @@ html img{
     color: #535450;
 }
 .blog-wrapper img {
-    float: right;
     border-radius: 12px;
     max-width: 250px;
     max-height: 200px;
 }
 .blog-wrapper img:hover {
     opacity: 1.0;
+}
+
+@media all and (min-width: 400px) {
+    .blog-wrapper img {
+        float: right;
+        border-radius: 12px;
+        max-width: 250px;
+        max-height: 200px;
+    }
+    .blog-wrapper h3 a:hover {
+        font-family: 'Open Sans', sans-serif;
+        color: #1e7a64;
+        font-size: .8em;
+        text-decoration: underline;
+        letter-spacing: 4px;
+    }
+    .blog-wrapper h3 a {
+        font-family: 'Open Sans', sans-serif;
+        color: #1e7a64;
+        font-size: .8em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
 }
